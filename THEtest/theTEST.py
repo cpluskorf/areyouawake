@@ -8,3 +8,4 @@ sys.path.append(BASE_PATH)
 from gui.main import test
 
 test()
+
