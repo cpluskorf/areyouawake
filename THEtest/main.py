@@ -7,10 +7,19 @@ def genNum(x):
     i = 0
     while i < x: 
         li.append(r.randint(0,100))
+        print(li[i])
         i += 1
-    print(li)
-    
-genNum(4)
+
+def getAns():
+    Ans = int()
+    print(type(Ans))
+    Ans = input("Please give numerical information:  \n ")
+    Ans = int(Ans)
+    print(type(Ans))
+
+genNum(10)
+getAns()
+
 
 # this only works for the main file when you import stuff into it 
 # if "__name__" == "__main__":
